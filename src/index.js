@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Blog from "./Blog";
 import reportWebVitals from './reportWebVitals';
+import BlogHook from './BlogHook';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Blog />
+    <BlogHook />
   </React.StrictMode>,
   document.getElementById('root')
 );

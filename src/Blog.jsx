@@ -26,7 +26,7 @@ class Blog extends React.Component {
     document.getElementById("counter").removeEventListener("click",()=>this.countUp())
   }
 
-  //公開状態を変更する関数
+  公開状態を変更する関数
   togglePublished = () => {
     this.setState({
       isPublished: !this.state.isPublished,
@@ -56,3 +56,4 @@ class Blog extends React.Component {
   }
 }
 export default Blog;
+
